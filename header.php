@@ -87,7 +87,7 @@
         <nav class="navbar navbar-light bg-light">
               
           <a class="navbar-brand aristafat uppercase" href="index.html">
-          <img src="assets/img/brand/Navbar_Logotype_0.svg" width="30" height="30" class="d-inline-block" alt="" loading="lazy">
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand/Navbar_Logotype_0.svg" width="30" height="30" class="d-inline-block" alt="" loading="lazy">
           Owl of Minerva
           </a>
         </nav>
@@ -154,7 +154,7 @@
 
     
     <!-- Full Page Intro -->
-    <div class="view" style="background-image: url('assets/img/bg/Header-Feature.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="view" style="background-image: url('wp-content/themes/bootstrap2wordpress/assets/img/bg/Header-Feature.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
       <!-- Mask & flexbox options-->
       <div class="mask d-flex justify-content-center align-items-center">
         <!-- Content -->
